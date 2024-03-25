@@ -47,24 +47,6 @@
   gap: 1em;
 }
 
-@media (max-width: 576px) {
-  .containerActions {
-    align-items: center;
-  }
-
-  .containerActions button {
-    width: 100%;
-  }
-  .custom-file-upload {
-    width: 100% !important;
-    padding: 6px 6px !important;
-    margin-top: 20px;
-  }
-
-  .responseContainer {
-    width: 100% !important;
-  }
-}
 .containerActions button {
   padding: 1em;
   border: none;
@@ -116,4 +98,23 @@ input[type="file"] {
 
 .responseContainer::-webkit-scrollbar-thumb:hover {
   background: #555;
+}
+
+@media (max-width: 576px) {
+  .containerActions {
+    align-items: center;
+  }
+
+  .containerActions button {
+    width: 100% !important;
+  }
+  .custom-file-upload {
+    width: 100% !important;
+    padding: 6px 6px !important;
+    margin-top: 20px;
+  }
+
+  .responseContainer {
+    width: 100% !important;
+  }
 }
